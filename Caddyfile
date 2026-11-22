@@ -1,0 +1,8 @@
+{$DOMAIN} {
+    encode zstd gzip
+  reverse_proxy portal:8787 {
+    # The API uses this header for per-client login limits. Replace any
+    # visitor-supplied value with the address observed by this proxy.
+    header_up CF-Connecting-IP {remote_host}
+  }
+}

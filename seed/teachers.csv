@@ -1,0 +1,9 @@
+﻿teacher_id,full_name,email,role,is_synthetic
+TCH-001,Елена Андреевна Воронцова,elena.vorontsova@example.com,Преподаватель,1
+TCH-002,Алексей Игоревич Данилов,alexey.danilov@example.com,Преподаватель,1
+TCH-003,Ирина Сергеевна Лебедева,irina.lebedeva@example.com,Преподаватель,1
+TCH-004,Дмитрий Павлович Соколов,dmitry.sokolov@example.com,Преподаватель,1
+TCH-005,Ольга Викторовна Миронова,olga.mironova@example.com,Преподаватель,1
+TCH-006,Марина Олеговна Белова,marina.belova@example.com,Преподаватель,1
+TCH-007,Павел Романович Орлов,pavel.orlov@example.com,Преподаватель,1
+TCH-008,Виктория Алексеевна Громова,victoria.gromova@example.com,Преподаватель,1

@@ -1,0 +1,24 @@
+[
+  {
+    "student_id": "STU-002",
+    "rule_id": "strategy-result-with-bonus",
+    "value": 90.4,
+    "maximum": 100,
+    "complete": true,
+    "published_at": "2026-12-10T12:30:00+03:00",
+    "explanation": "В расчет включены 2 бонусных балла за исследование. Результат ограничен 100 баллами.",
+    "is_synthetic": "1",
+    "rule_version": "2.1"
+  },
+  {
+    "student_id": "STU-003",
+    "rule_id": "strategy-result-with-bonus",
+    "value": 93.4,
+    "maximum": 100,
+    "complete": true,
+    "published_at": "2026-12-10T12:30:00+03:00",
+    "explanation": "В расчет включены 2 бонусных балла за исследование. Результат ограничен 100 баллами.",
+    "is_synthetic": "1",
+    "rule_version": "2.1"
+  }
+]

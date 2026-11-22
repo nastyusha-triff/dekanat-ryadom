@@ -1,0 +1,1125 @@
+{
+  "ui": {
+    "terms": [
+      {
+        "id": "2026-autumn",
+        "label": "Осенний семестр 2026"
+      }
+    ],
+    "grade_groups": [
+      {
+        "id": "tests",
+        "label": "Тесты"
+      },
+      {
+        "id": "practice",
+        "label": "Практические работы"
+      },
+      {
+        "id": "projects",
+        "label": "Проекты"
+      },
+      {
+        "id": "exam",
+        "label": "Экзамен"
+      },
+      {
+        "id": "results",
+        "label": "Расчетные оценки"
+      }
+    ],
+    "request_statuses": [
+      {
+        "id": "submitted",
+        "label": "Отправлена",
+        "closed": false,
+        "priority": 3,
+        "action": "none"
+      },
+      {
+        "id": "in_progress",
+        "label": "В работе",
+        "closed": false,
+        "priority": 2,
+        "action": "none"
+      },
+      {
+        "id": "needs_info",
+        "label": "Нужны уточнения",
+        "closed": false,
+        "priority": 0,
+        "action": "clarify"
+      },
+      {
+        "id": "ready",
+        "label": "Готова",
+        "closed": false,
+        "priority": 1,
+        "action": "pickup"
+      },
+      {
+        "id": "closed",
+        "label": "Закрыта",
+        "closed": true,
+        "priority": 4,
+        "action": "none"
+      }
+    ],
+    "request_types": [
+      {
+        "id": "enrollment_certificate",
+        "label": "Справка об обучении",
+        "fields": [
+          {
+            "key": "description",
+            "label": "Текст обращения",
+            "type": "textarea",
+            "required": true,
+            "max_length": 2000,
+            "placeholder": "Расскажите, что нужно подготовить или уточнить"
+          }
+        ]
+      },
+      {
+        "id": "academic_transcript",
+        "label": "Выписка с оценками",
+        "fields": [
+          {
+            "key": "description",
+            "label": "Текст обращения",
+            "type": "textarea",
+            "required": true,
+            "max_length": 2000,
+            "placeholder": "Расскажите, что нужно подготовить или уточнить"
+          },
+          {
+            "key": "document_language",
+            "label": "Язык документа",
+            "type": "select",
+            "required": true,
+            "options": [
+              {
+                "value": "ru",
+                "label": "Русский"
+              },
+              {
+                "value": "en",
+                "label": "Английский"
+              }
+            ],
+            "default": "ru"
+          }
+        ]
+      },
+      {
+        "id": "certificate_correction",
+        "label": "Исправление справки",
+        "fields": [
+          {
+            "key": "description",
+            "label": "Текст обращения",
+            "type": "textarea",
+            "required": true,
+            "max_length": 2000,
+            "placeholder": "Расскажите, что нужно подготовить или уточнить"
+          }
+        ]
+      },
+      {
+        "id": "schedule_question",
+        "label": "Вопрос в деканат",
+        "fields": [
+          {
+            "key": "description",
+            "label": "Текст обращения",
+            "type": "textarea",
+            "required": true,
+            "max_length": 2000,
+            "placeholder": "Расскажите, что нужно подготовить или уточнить"
+          }
+        ]
+      }
+    ],
+    "announcement_categories": [
+      {
+        "id": "study",
+        "label": "Учеба"
+      },
+      {
+        "id": "office",
+        "label": "Деканат"
+      },
+      {
+        "id": "events",
+        "label": "События"
+      }
+    ],
+    "profile_sections": [
+      {
+        "title": "Обучение",
+        "fields": [
+          {
+            "key": "track_names",
+            "label": "Направления",
+            "format": "tags",
+            "empty": "Не указаны",
+            "wide": true
+          },
+          {
+            "key": "program",
+            "label": "Программа"
+          },
+          {
+            "key": "course",
+            "label": "Курс"
+          },
+          {
+            "key": "language_group",
+            "label": "Языковая группа"
+          },
+          {
+            "key": "academic_group",
+            "label": "Академическая группа"
+          },
+          {
+            "key": "faculty",
+            "label": "Факультет"
+          }
+        ]
+      },
+      {
+        "title": "Контакты",
+        "fields": [
+          {
+            "key": "email",
+            "label": "Почта",
+            "format": "email"
+          },
+          {
+            "key": "phone",
+            "label": "Номер телефона",
+            "format": "phone"
+          }
+        ]
+      }
+    ]
+  },
+  "course_details": [
+    {
+      "subject_id": "Y1-FIN",
+      "teacher_id": "TCH-001",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-002",
+        "rule-004"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y1-ENG",
+      "teacher_id": "TCH-003",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-006",
+        "rule-008"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y1-INTERNET",
+      "teacher_id": "TCH-002",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-010",
+        "rule-012"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y1-CAREER",
+      "teacher_id": "TCH-006",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-014",
+        "rule-016"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y1-NEURO",
+      "teacher_id": "TCH-004",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-018",
+        "rule-020"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y1-CLIENT",
+      "teacher_id": "TCH-005",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-022",
+        "rule-024"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y1-EVENT",
+      "teacher_id": "TCH-007",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-026",
+        "rule-028"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-ONLINE",
+      "teacher_id": "TCH-005",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-030",
+        "rule-032"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-ENTERTAINMENT",
+      "teacher_id": "TCH-007",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-034",
+        "rule-036"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-BUSINESS",
+      "teacher_id": "TCH-005",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-038",
+        "rule-040"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-DIGITAL",
+      "teacher_id": "TCH-002",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-042",
+        "rule-044"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-STRATEGY",
+      "teacher_id": "TCH-005",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-046",
+        "rule-048"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-ENG",
+      "teacher_id": "TCH-003",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-050",
+        "rule-052"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-METHOD",
+      "teacher_id": "TCH-006",
+      "assessment_type": "none",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Без экзамена",
+      "summary_rule_ids": [
+        "rule-054",
+        "rule-055"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Без экзамена"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-SPORT",
+      "teacher_id": "TCH-007",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-057",
+        "rule-059"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-LUX",
+      "teacher_id": "TCH-008",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-061",
+        "rule-063"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-HOSPITALITY",
+      "teacher_id": "TCH-008",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-065",
+        "rule-067"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-INFLUENCE",
+      "teacher_id": "TCH-007",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-069",
+        "rule-071"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-NEURO",
+      "teacher_id": "TCH-004",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-073",
+        "rule-075"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    },
+    {
+      "subject_id": "Y2-WEB",
+      "teacher_id": "TCH-002",
+      "assessment_type": "exam",
+      "chat_url": "",
+      "materials_url": "",
+      "is_synthetic": "1",
+      "term_id": "2026-autumn",
+      "assessment_label": "Экзамен",
+      "summary_rule_ids": [
+        "rule-077",
+        "rule-079"
+      ],
+      "resources": [
+        {
+          "label": "Чат курса",
+          "url": "",
+          "icon": "chat"
+        },
+        {
+          "label": "Материалы курса",
+          "url": "",
+          "icon": "book"
+        }
+      ],
+      "attributes": [
+        {
+          "label": "Период",
+          "value": "Осенний семестр 2026"
+        },
+        {
+          "label": "Аттестация",
+          "value": "Экзамен"
+        }
+      ]
+    }
+  ],
+  "announcements": [
+    {
+      "announcement_id": "ANN-001",
+      "title": "Запись на консультации перед сессией",
+      "category": "study",
+      "body": "Преподаватели открыли запись на консультации. Уточните свободное время в чате своей дисциплины. Ссылки на чаты доступны в разделе «О курсе».",
+      "summary": "Выберите время и подготовьте вопросы преподавателю.",
+      "author": "Учебный офис",
+      "published_at": "2026-11-20T12:00:00+03:00",
+      "expires_at": "2027-01-15T23:59:00+03:00",
+      "student_ids": [
+        "STU-001",
+        "STU-002",
+        "STU-003"
+      ],
+      "pinned": true,
+      "links": [],
+      "is_synthetic": "1"
+    },
+    {
+      "announcement_id": "ANN-002",
+      "title": "Подготовка справок к концу семестра",
+      "category": "office",
+      "body": "Если вам нужна справка для организации, укажите ее название в обращении. Статус подготовки и место получения появятся в карточке заявки.",
+      "summary": "Укажите организацию-получателя при оформлении обращения.",
+      "author": "Деканат",
+      "published_at": "2026-11-19T10:00:00+03:00",
+      "expires_at": "2026-12-01T00:00:00+03:00",
+      "student_ids": [
+        "STU-001",
+        "STU-002",
+        "STU-003"
+      ],
+      "pinned": false,
+      "links": [],
+      "is_synthetic": "1"
+    },
+    {
+      "announcement_id": "ANN-003",
+      "title": "Открытый семинар по аналитике",
+      "category": "events",
+      "body": "На семинаре разберем, как связать данные о поведении пользователей с бизнес-показателями. Материалы встречи будут добавлены в соответствующие дисциплины.",
+      "summary": "Разбор кейсов и обсуждение исследовательских подходов.",
+      "author": "Кафедра маркетинга",
+      "published_at": "2026-11-18T14:00:00+03:00",
+      "expires_at": "2026-11-25T23:59:00+03:00",
+      "student_ids": [
+        "STU-002",
+        "STU-003"
+      ],
+      "pinned": false,
+      "links": [],
+      "is_synthetic": "1"
+    }
+  ],
+  "requests": [
+    {
+      "request_id": "REQ-001",
+      "student_id": "STU-001",
+      "request_type": "enrollment_certificate",
+      "title": "Справка об обучении",
+      "description": "Нужна справка для предоставления по месту требования.",
+      "status": "submitted",
+      "status_label": "Отправлена",
+      "created_at": "2026-11-21T10:10:00+03:00",
+      "updated_at": "2026-11-21T10:10:00+03:00",
+      "expected_ready_date": "2026-11-24",
+      "ready_at": "",
+      "closed_at": "",
+      "next_action": "Ожидайте принятия заявления в работу.",
+      "required_clarification": "",
+      "delivery_method": "pickup",
+      "pickup_location": "Кабинет 102",
+      "response": "Заявление зарегистрировано.",
+      "is_synthetic": "1",
+      "pickup_hours": "",
+      "delivery_label": "Личное получение",
+      "clarification_fields": [],
+      "links": [],
+      "attributes": []
+    },
+    {
+      "request_id": "REQ-002",
+      "student_id": "STU-002",
+      "request_type": "academic_transcript",
+      "title": "Выписка с оценками",
+      "description": "Прошу подготовить выписку о текущей успеваемости.",
+      "status": "in_progress",
+      "status_label": "В работе",
+      "created_at": "2026-11-19T09:00:00+03:00",
+      "updated_at": "2026-11-20T11:00:00+03:00",
+      "expected_ready_date": "2026-11-23",
+      "ready_at": "",
+      "closed_at": "",
+      "next_action": "Ожидайте уведомления о готовности.",
+      "required_clarification": "",
+      "delivery_method": "pickup",
+      "pickup_location": "Кабинет 102",
+      "response": "Деканат проверяет сведения об успеваемости.",
+      "is_synthetic": "1",
+      "pickup_hours": "",
+      "delivery_label": "Личное получение",
+      "clarification_fields": [],
+      "links": [],
+      "attributes": []
+    },
+    {
+      "request_id": "REQ-003",
+      "student_id": "STU-003",
+      "request_type": "certificate_correction",
+      "title": "Уточнение данных для справки",
+      "description": "Прошу указать в справке выбранные направления обучения.",
+      "status": "needs_info",
+      "status_label": "Нужны уточнения",
+      "created_at": "2026-11-18T14:00:00+03:00",
+      "updated_at": "2026-11-20T15:15:00+03:00",
+      "expected_ready_date": "2026-11-25",
+      "ready_at": "",
+      "closed_at": "",
+      "next_action": "Укажите организацию, для которой нужна справка.",
+      "required_clarification": "Напишите название организации-получателя. Документы не требуются.",
+      "delivery_method": "pickup",
+      "pickup_location": "Кабинет 102",
+      "response": "Срок предварительный и зависит от получения уточнения.",
+      "is_synthetic": "1",
+      "pickup_hours": "",
+      "delivery_label": "Личное получение",
+      "clarification_fields": [
+        {
+          "key": "organization",
+          "label": "Организация-получатель",
+          "type": "text",
+          "required": true,
+          "hint": "Документы не требуются.",
+          "max_length": 1000
+        }
+      ],
+      "links": [],
+      "attributes": []
+    },
+    {
+      "request_id": "REQ-004",
+      "student_id": "STU-001",
+      "request_type": "enrollment_certificate",
+      "title": "Справка для студенческого мероприятия",
+      "description": "Прошу подтвердить обучение для участия в студенческой конференции.",
+      "status": "ready",
+      "status_label": "Готова",
+      "created_at": "2026-11-16T10:00:00+03:00",
+      "updated_at": "2026-11-20T11:30:00+03:00",
+      "expected_ready_date": "2026-11-20",
+      "ready_at": "2026-11-20T11:30:00+03:00",
+      "closed_at": "",
+      "next_action": "Заберите справку в кабинете 102 в рабочие дни с 10:00 до 17:00.",
+      "required_clarification": "",
+      "delivery_method": "pickup",
+      "pickup_location": "Кабинет 102",
+      "response": "Справка готова к выдаче.",
+      "is_synthetic": "1",
+      "pickup_hours": "Рабочие дни, 10:00–17:00",
+      "delivery_label": "Личное получение",
+      "clarification_fields": [],
+      "links": [],
+      "attributes": []
+    },
+    {
+      "request_id": "REQ-005",
+      "student_id": "STU-002",
+      "request_type": "schedule_question",
+      "title": "Вопрос о переносе лекции",
+      "description": "Уточните дату и аудиторию стратегического маркетинга после переноса.",
+      "status": "closed",
+      "status_label": "Закрыта",
+      "created_at": "2026-11-20T18:00:00+03:00",
+      "updated_at": "2026-11-21T10:00:00+03:00",
+      "expected_ready_date": "2026-11-21",
+      "ready_at": "",
+      "closed_at": "2026-11-21T10:00:00+03:00",
+      "next_action": "Ответ получен. Актуальная пара доступна в расписании.",
+      "required_clarification": "",
+      "delivery_method": "portal",
+      "pickup_location": "",
+      "response": "Лекция перенесена с 23 ноября 19:00 на 24 ноября 19:00, аудитория 307.",
+      "is_synthetic": "1",
+      "pickup_hours": "",
+      "delivery_label": "Ответ в портале",
+      "clarification_fields": [],
+      "links": [
+        {
+          "label": "Открыть занятие",
+          "route": "lesson/L-Y2-STRATEGY-20261123"
+        }
+      ],
+      "attributes": []
+    }
+  ]
+}

@@ -1,0 +1,4 @@
+﻿student_id,full_name,username,email,initial_password,course,language_group,track_codes,track_names,program,role,is_synthetic,phone
+STU-001,Морозова Анна Ильинична,demo_year1_group1,year1.group1@example.com,DemoOmTU26!A1,1,1,,,ОМТУ и ЦМ,student,1,
+STU-002,Соколов Максим Андреевич,demo_year2_group2,year2.group2@example.com,DemoOmTU26!B2,2,2,digital|hospitality,Digital|Гостеприимство,ОМТУ и ЦМ,student,1,
+STU-003,Волкова Мария Сергеевна,demo_year2_group3,year2.group3@example.com,DemoOmTU26!C3,2,3,digital|lux,Digital|Люкс,ОМТУ и ЦМ,student,1,

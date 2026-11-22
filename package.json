@@ -1,0 +1,21 @@
+{
+  "name": "dekanat-ryadom",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Учебный портал с кабинетами студента, преподавателя и деканата",
+  "author": "nastyusha-triff",
+  "type": "module",
+  "engines": {
+    "node": ">=24"
+  },
+  "scripts": {
+    "start": "node server/local.mjs",
+    "seed": "node scripts/seed.mjs",
+    "test": "node --test tests/*.test.mjs",
+    "admin": "node scripts/admin.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nastyusha-triff/dekanat-ryadom.git"
+  }
+}

@@ -1,0 +1,21 @@
+{
+  "schedule_range": ["2026-11-01", "2026-11-30"],
+  "student_profiles": {
+    "STU-001": {"faculty":"Демо-факультет маркетинга и управления","academic_group":"ОМТУ-26-1"},
+    "STU-002": {"faculty":"Демо-факультет маркетинга и управления","academic_group":"ОМТУ-25-2"},
+    "STU-003": {"faculty":"Демо-факультет маркетинга и управления","academic_group":"ОМТУ-25-3"}
+  },
+  "teacher_accounts": [
+    {"id":"TCH-001","username":"demo_teacher1","initial_password":"DemoTeacher26!A1"},
+    {"id":"TCH-002","username":"demo_teacher2","initial_password":"DemoTeacher26!B2"},
+    {"id":"TCH-003","username":"demo_teacher3","initial_password":"DemoTeacher26!C3"},
+    {"id":"TCH-004","username":"demo_teacher4","initial_password":"DemoTeacher26!D4"},
+    {"id":"TCH-005","username":"demo_teacher5","initial_password":"DemoTeacher26!E5"},
+    {"id":"TCH-006","username":"demo_teacher6","initial_password":"DemoTeacher26!F6"},
+    {"id":"TCH-007","username":"demo_teacher7","initial_password":"DemoTeacher26!G7"},
+    {"id":"TCH-008","username":"demo_teacher8","initial_password":"DemoTeacher26!H8"}
+  ],
+  "provided_implementations": {
+    "strategy-result-with-bonus": {"kind":"normalized_weighted_bonus","weights":[0.6,0.4],"bonus":2,"cap":100}
+  }
+}
